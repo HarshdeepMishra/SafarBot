@@ -1,0 +1,99 @@
+{
+  "id": "5c48d48b-9eb8-479f-9bdb-c15e953d1e13",
+  "parentId": "c2125f8c-5442-42c7-9616-40bf999bd0a3",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - Sarnath Museum - 2S",
+  "auto": true,
+  "contexts": [
+    "greetEvent-SarnathMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-SarnathMuseum-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Welcome to the Sarnath Museum! Here’s some fascinating information you might enjoy:"
+                  ]
+                },
+                {
+                  "accessibilityText": "A beautiful view of the Sarnath Museum.",
+                  "type": "image",
+                  "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sarnath_Museum_Front.jpg"
+                },
+                {
+                  "text": [
+                    "🏛️ **Museum Overview:** The Sarnath Museum is one of the oldest site museums of the Archaeological Survey of India. It houses an incredible collection of artifacts dating back to the Mauryan, Kushan, and Gupta periods, reflecting the rich history of ancient India."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": [
+                    "🌟 **Interesting Fact:** The museum is home to the iconic Ashokan Lion Capital of Sarnath, which is also the national emblem of India. This stunning sculpture symbolizes strength, courage, and pride, and is a major highlight of the museum."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🖼️ **Exhibits to Explore:** Discover a wide array of sculptures, carvings, and relics, including the famous Buddha sculptures and the impressive collections of pottery, coins, and inscriptions that reveal the artistic achievements of ancient India."
+                  ]
+                },
+                {
+                  "text": [
+                    "📚 **Did You Know?** The Sarnath Museum’s galleries are organized thematically, showcasing the evolution of Buddhist art through the centuries. Don’t miss the captivating narrative of Buddha’s first sermon depicted in stone carvings."
+                  ],
+                  "type": "description"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "",
+                      "text": "Reset Chat",
+                      "action": {
+                        "payload": "reset",
+                        "type": "postback"
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "1932705b-629d-4eb7-bf90-583fa491ec05",
+  "parentId": "bb49d151-8604-45ab-bf32-88e27f94d559",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - VishwaNathMandir - v3",
+  "auto": true,
+  "contexts": [
+    "greetEvent-VishwaNathMandir-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-VishwaNathMandir-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Welcome to Kashi Vishwanath Temple! Here’s some fascinating information you might enjoy:"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "accessibilityText": "A stunning view of Kashi Vishwanath Temple.",
+                  "type": "image",
+                  "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kashi_Vishwanath_Temple%2C_Varanasi.jpg"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🛕 **Temple Overview:** The Kashi Vishwanath Temple is one of the most famous Hindu temples dedicated to Lord Shiva. Situated in the heart of Varanasi, it is one of the twelve Jyotirlingas—the holiest shrines of Shiva, and a major spiritual destination for devotees worldwide."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🌟 **Interesting Fact:** The temple’s gold-plated spire and domes are a sight to behold, with over 800 kilograms of gold donated by Maharaja Ranjit Singh in 1835. The temple’s architecture reflects the grandeur of ancient Hindu craftsmanship."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🖼️ **Rituals to Experience:** Experience the unique Ganga Aarti, a mesmerizing ritual performed every evening on the banks of the Ganges near the temple. It is an unforgettable spectacle of light, sound, and devotion."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "📚 **Did You Know?** The temple has been destroyed and rebuilt several times throughout history, standing as a symbol of resilience and faith. It is a focal point of Hindu spirituality and a testament to the enduring culture of Varanasi."
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "action": {
+                        "payload": "reset",
+                        "type": "postback"
+                      },
+                      "link": "",
+                      "text": "Reset Chat"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "58f4f9d2-9ac3-44c1-8e60-58e4b7cacf14",
+  "parentId": "2dd2a05b-f27a-4c25-948d-b76c66bd8a95",
+  "rootParentId": "2dd2a05b-f27a-4c25-948d-b76c66bd8a95",
+  "name": "helpIntent - emailSupport",
+  "auto": true,
+  "contexts": [
+    "helpIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "helpIntent.helpIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "safarbots@gmail.com",
+                      "link": "mailto:safarbots@gmail.com"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2dd2a05b-f27a-4c25-948d-b76c66bd8a95",
+  "name": "helpIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "helpIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Safar Bot is your virtual assistant for booking museum tickets, answering travel-related questions, and more!",
+                    "If you have any issues or need further assistance, please reach out to our customer care team.",
+                    "Here\u0027s a quick guide on how to use Safar Bot\u0027s operations:",
+                    "- **Reset**: Use this option to reset the current chat and start over.",
+                    "- **Payment**: This option helps you proceed with payment for bookings.",
+                    "- **End**: Use this command to end the current chat session."
+                  ],
+                  "type": "description",
+                  "title": "Need Assistance? We\u0027re Here to Help!"
+                },
+                {
+                  "text": [
+                    "📞 **Customer Care Number**: 555-123-4567",
+                    "📧 **Email Support**: safarbots@gmail.com"
+                  ],
+                  "type": "description",
+                  "title": "Contact Support"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Call Customer Care",
+                      "action": {
+                        "type": "custom",
+                        "text": "To call customer care, dial 7510021591."
+                      }
+                    },
+                    {
+                      "text": "Email Support",
+                      "action": {
+                        "text": "You can email support at safarbots@gmail.com.",
+                        "type": "custom"
+                      }
+                    },
+                    {
+                      "link": "https://safarbot.com/faq",
+                      "text": "Visit Our FAQ"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

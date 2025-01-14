@@ -1,0 +1,76 @@
+{
+  "id": "bb49d151-8604-45ab-bf32-88e27f94d559",
+  "parentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - VishwaNathMandir",
+  "auto": true,
+  "contexts": [
+    "greetEvent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom",
+      "affectedContexts": [
+        {
+          "name": "greetEvent-VishwaNathMandir-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "🛕 Kashi Vishwanath Temple is one of the most revered temples in India, dedicated to Lord Shiva. It stands on the western bank of the holy Ganges River and is considered one of the twelve Jyotirlingas, the holiest shrines of Shiva.",
+                    "🌟 The temple\u0027s magnificent gold-plated spire and domes, contributed by Maharaja Ranjit Singh in 1835, make it a breathtaking symbol of faith and resilience, attracting millions of devotees each year."
+                  ],
+                  "title": "Discover Kashi Vishwanath Temple!",
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Plan a Visit"
+                    },
+                    {
+                      "text": "Temple History"
+                    },
+                    {
+                      "text": "Contact Information"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

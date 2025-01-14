@@ -1,0 +1,76 @@
+{
+  "id": "6880c1b8-6fdb-4792-b5b2-49cb03fa77eb",
+  "parentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - nepaliMuseum",
+  "auto": true,
+  "contexts": [
+    "greetEvent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom",
+      "affectedContexts": [
+        {
+          "name": "greetEvent-nepaliMuseum-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "🏛️ The Nepali Museum, located near the Ramnagar Fort in Varanasi, is a unique cultural gem reflecting the rich architectural style of Nepal. It is renowned for its pagoda-style structure, built with intricate woodwork and terracotta carvings.",
+                    "🌟 The museum exhibits various artifacts, sculptures, and artworks that showcase the traditional Nepali art and culture, making it a must-visit for those interested in exploring the confluence of Indian and Nepali heritage."
+                  ],
+                  "type": "description",
+                  "title": "Explore Nepali Museum!"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Plan a Visit"
+                    },
+                    {
+                      "text": "Museum Exhibits"
+                    },
+                    {
+                      "text": "Contact Information"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "daad0b40-87ac-437a-8b9a-c572f9117867",
+  "parentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - ramnagarFort",
+  "auto": true,
+  "contexts": [
+    "greetEvent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom",
+      "affectedContexts": [
+        {
+          "name": "greetEvent-ramnagarFort-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Fantastic! I’m thrilled to help you plan your trip. Let’s make sure you have a memorable experience ahead!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "🏰 Ramnagar Fort is a beautiful 18th-century sandstone structure located on the eastern bank of the Ganges, opposite Varanasi. It has been the ancestral home of the Maharaja of Banaras for centuries.",
+                    "🗝️ Explore the royal museum within the fort that showcases vintage cars, medieval costumes, ancient weaponry, and priceless manuscripts, offering a glimpse into the royal life of Banaras."
+                  ],
+                  "title": "Discover Ramnagar Fort!"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Plan a Trip"
+                    },
+                    {
+                      "text": "About Fort"
+                    },
+                    {
+                      "text": "Contact Information"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

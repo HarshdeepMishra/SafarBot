@@ -1,0 +1,91 @@
+{
+  "id": "0914ffe9-6ec6-44ca-96a3-6f7c4b495050",
+  "parentId": "bb49d151-8604-45ab-bf32-88e27f94d559",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - VishwaNathMandir - V2",
+  "auto": true,
+  "contexts": [
+    "greetEvent-VishwaNathMandir-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-VishwaNathMandir-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/police-icon.png"
+                    },
+                    "alt": "Police Station"
+                  },
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 0542-2450044",
+                    "**Address:** Police Station, Vishwanath Gali, Varanasi, Uttar Pradesh 221001"
+                  ],
+                  "title": "📞 Local Police Station (Vishwanath Temple Area)"
+                },
+                {
+                  "title": "🏥 Nearest Hospital (Shri Vishwanath Hospital)",
+                  "image": {
+                    "alt": "Hospital",
+                    "src": {
+                      "rawUrl": "https://example.com/hospital-icon.png"
+                    }
+                  },
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 0542-2509123",
+                    "**Address:** Bansphatak, Near Kashi Vishwanath Temple, Varanasi, Uttar Pradesh 221001"
+                  ]
+                },
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/care-icon.png"
+                    },
+                    "alt": "Customer Care"
+                  },
+                  "type": "description",
+                  "title": "📞 Safar Bot Customer Care",
+                  "text": [
+                    "**Contact Number:** 555-987-6543",
+                    "**Email:** support@safarbot.com"
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

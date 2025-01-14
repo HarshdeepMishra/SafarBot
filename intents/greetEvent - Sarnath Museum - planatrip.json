@@ -1,0 +1,73 @@
+{
+  "id": "34ec71f1-7cf4-4831-a38d-e88ac6fbaa5a",
+  "parentId": "c2125f8c-5442-42c7-9616-40bf999bd0a3",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - Sarnath Museum - planatrip",
+  "auto": true,
+  "contexts": [
+    "greetEvent-SarnathMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-SarnathMuseum-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! Let\u0027s plan a trip for you! So that you have an awesome experience ahead."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Great! Let\u0027s plan a trip for you! Do you want to book a ticket or search for nearby hotels first?"
+                  ],
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Book Ticket",
+                      "link": "https://varanasi-3.onrender.com/Bookings/bookingS.html"
+                    },
+                    {
+                      "link": "https://www.google.com/maps/search/hotels+near+sarnath+museum/@25.3759811,83.0152218,15z/data\u003d!3m1!4b1?authuser\u003d0\u0026entry\u003dttu\u0026g_ep\u003dEgoyMDI0MDgyNy4wIKXMDSoASAFQAw%3D%3D",
+                      "text": "Nearby Hotels"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,99 @@
+{
+  "id": "60a99dc0-9b4c-43b5-ad63-3753a59fbd40",
+  "parentId": "3dc52437-d12d-4377-8d6e-98f16ac7981f",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - bharatKalaMuseum - b3",
+  "auto": true,
+  "contexts": [
+    "greetEvent-bharatKalaMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-bharatKalaMuseum-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Welcome to Bharat Kala Bhavan Museum! Here’s some fascinating information you might enjoy:"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "accessibilityText": "A stunning view of Bharat Kala Bhavan Museum.",
+                  "type": "image",
+                  "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Bharat_Kala_Bhavan_Museum.jpg"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🏛️ **Museum Overview:** Bharat Kala Bhavan Museum, located within the Banaras Hindu University campus, is one of India\u0027s finest museums showcasing a remarkable collection of art, archaeology, and artifacts. It is renowned for its extensive collection of paintings, sculptures, and textiles, reflecting India’s rich cultural heritage."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🌟 **Interesting Fact:** The museum houses an impressive array of miniature paintings, rare manuscripts, and ancient artifacts. Its collection of Mughal and Rajput paintings, along with artifacts from ancient Varanasi, makes it a treasure trove for art lovers and historians."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🖼️ **Exhibits to Explore:** Discover galleries dedicated to different art forms, including textiles, bronzes, and Buddhist art. Don’t miss the collection of costumes and jewelry that reflect the diverse cultural traditions of India."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "📚 **Did You Know?** Established in 1920, Bharat Kala Bhavan Museum has grown from a small collection to a major center of art and history. Its galleries provide an insightful journey through India\u0027s artistic and cultural evolution."
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "action": {
+                        "type": "postback",
+                        "payload": "reset"
+                      },
+                      "link": "",
+                      "text": "Reset Chat"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

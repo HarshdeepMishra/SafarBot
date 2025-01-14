@@ -1,0 +1,79 @@
+{
+  "id": "c2125f8c-5442-42c7-9616-40bf999bd0a3",
+  "parentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - Sarnath Museum",
+  "auto": true,
+  "contexts": [
+    "greetEvent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom",
+      "affectedContexts": [
+        {
+          "name": "greetEvent-SarnathMuseum-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great Choice ! Sarnath Museum is a treasure trove of history and culture"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Explore Sarnath Museum!",
+                  "type": "description",
+                  "text": [
+                    "🏛️ Sarnath Museum is one of the oldest museums in India, showcasing relics from the Mauryan era, including the iconic Lion Capital of Ashoka.",
+                    "🗿 Discover over 6,832 artifacts, sculptures, and historical treasures. A must-visit for history enthusiasts!"
+                  ]
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Plan a Trip"
+                    },
+                    {
+                      "text": "About Museum"
+                    },
+                    {
+                      "text": "Contact Information"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

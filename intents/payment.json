@@ -1,0 +1,65 @@
+{
+  "id": "b2e93be5-0303-4861-8fa6-8fc305dd2777",
+  "name": "payment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "payment"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "text",
+                  "text": [
+                    "Great! Let\u0027s plan a trip for you! Do you want to book a ticket or search for nearby hotels first?"
+                  ]
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Pay For Ticket",
+                      "link": "https://razorpay.me/@safarbots?amount\u003dbMZtQmLjQWplBAmd%2FyQdEA%3D%3D"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

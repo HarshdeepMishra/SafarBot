@@ -1,0 +1,73 @@
+{
+  "id": "3606c940-36df-42dd-922f-df9bd2c845d5",
+  "parentId": "3dc52437-d12d-4377-8d6e-98f16ac7981f",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - bharatKalaMuseum - b1",
+  "auto": true,
+  "contexts": [
+    "greetEvent-bharatKalaMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-bharatKalaMuseum-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great pick! I’m excited to assist in planning your trip. Let’s ensure you have a fantastic journey!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Great! Let\u0027s plan a trip to Bharat Kala Bhavan Museum! Would you like to book a ticket or find nearby hotels first?"
+                  ],
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Book Ticket",
+                      "link": "https://varanasi-3.onrender.com/Bookings/bookingB.html"
+                    },
+                    {
+                      "link": "https://www.google.com/maps/search/hotels+near+bharat+kala+bhavan+museum+varanasi/@25.2677209,82.991258,15z",
+                      "text": "Nearby Hotels"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

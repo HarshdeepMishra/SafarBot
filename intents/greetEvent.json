@@ -1,0 +1,172 @@
+{
+  "id": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "greetEvent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "af0517c7-93db-46d9-9e07-ef50522df479",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a8967f25-6bef-4989-935a-1d911754aa20",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Provide us the date you want to visit ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4689b9c8-e75e-40c8-9c88-83053073d8d8",
+          "name": "gender",
+          "required": true,
+          "dataType": "@gender",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Gender?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "bd5a5a64-5ae5-4c46-9975-cdaae62d5341",
+          "name": "age",
+          "required": true,
+          "dataType": "@sys.number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Age??"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Welcome to Varanasi ! $person . Where you want to Visit today in Varanasi select ??"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "link": "",
+                      "text": "Sarnath Museum"
+                    },
+                    {
+                      "text": "Ramnagar Fort",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "link": ""
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "link": "",
+                      "text": "Vishwanath Mandir"
+                    },
+                    {
+                      "text": "Bharat Kala Museum",
+                      "link": "",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      }
+                    },
+                    {
+                      "text": "Nepali Museum",
+                      "image": {
+                        "src": {
+                          "rawUrl": ""
+                        }
+                      },
+                      "link": ""
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

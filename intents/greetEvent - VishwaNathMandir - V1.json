@@ -1,0 +1,73 @@
+{
+  "id": "df7342c8-bf04-4ccd-9cf7-427d88f2f1c6",
+  "parentId": "bb49d151-8604-45ab-bf32-88e27f94d559",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - VishwaNathMandir - V1",
+  "auto": true,
+  "contexts": [
+    "greetEvent-VishwaNathMandir-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-VishwaNathMandir-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Wonderful! I’m here to help plan an incredible trip for you. Let’s get everything arranged for an awesome adventure!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "text",
+                  "text": [
+                    "Great! Let\u0027s plan a trip for you! Do you want to book a ticket or search for nearby hotels first?"
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "https://varanasi-3.onrender.com/Bookings/bookingV.html",
+                      "text": "Book Ticket"
+                    },
+                    {
+                      "link": "https://www.google.com/maps/search/hotels+near+vishwanath+temple+varanasi/@25.2831325,82.9746421,14z/data\u003d!3m1!4b1?authuser\u003d0\u0026entry\u003dttu\u0026g_ep\u003dEgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                      "text": "Nearby Hotels"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

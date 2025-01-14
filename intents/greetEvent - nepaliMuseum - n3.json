@@ -1,0 +1,99 @@
+{
+  "id": "ff2425f6-b20a-455e-a939-311a91755144",
+  "parentId": "6880c1b8-6fdb-4792-b5b2-49cb03fa77eb",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - nepaliMuseum - n3",
+  "auto": true,
+  "contexts": [
+    "greetEvent-nepaliMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-nepaliMuseum-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Welcome to the Nepali Museum! Here’s some fascinating information you might enjoy:"
+                  ]
+                },
+                {
+                  "accessibilityText": "A stunning view of the Nepali Museum.",
+                  "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Nepali_Temple%2C_Varanasi.jpg",
+                  "type": "image"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🏛️ **Museum Overview:** The Nepali Museum, located near the Lalita Ghat in Varanasi, is known for its exquisite architecture inspired by the Pashupatinath Temple in Kathmandu. Built by the King of Nepal, this museum captures the essence of traditional Nepali woodwork and design."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🌟 **Interesting Fact:** The museum’s structure is entirely made of terracotta, stone, and wood, adorned with intricate carvings depicting scenes from Hindu mythology. Its pagoda-style architecture stands out amidst the ghats of Varanasi, making it a unique cultural landmark."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "🖼️ **Exhibits to Explore:** Explore a collection of artifacts, sculptures, and traditional Nepali artworks. The museum provides a glimpse into the cultural ties between India and Nepal, showcasing religious artifacts and artistic traditions."
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "📚 **Did You Know?** The Nepali Museum not only serves as a historical monument but also as a symbol of the shared heritage between India and Nepal. It stands as a testament to the close cultural bonds and architectural brilliance of the Nepali craftsmen."
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "action": {
+                        "type": "postback",
+                        "payload": "reset"
+                      },
+                      "link": "",
+                      "text": "Reset Chat"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

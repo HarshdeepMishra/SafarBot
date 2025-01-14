@@ -1,0 +1,91 @@
+{
+  "id": "8325109a-d134-44d0-9da4-e141a69031b9",
+  "parentId": "daad0b40-87ac-437a-8b9a-c572f9117867",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - ramnagarFort - r2",
+  "auto": true,
+  "contexts": [
+    "greetEvent-ramnagarFort-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-ramnagarFort-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "image": {
+                    "alt": "Police Station",
+                    "src": {
+                      "rawUrl": "https://example.com/police-icon.png"
+                    }
+                  },
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 0542-2442239",
+                    "**Address:** Police Station, Ramnagar, Varanasi, Uttar Pradesh 221008"
+                  ],
+                  "title": "📞 Local Police Station (Ramnagar)"
+                },
+                {
+                  "title": "🏥 Nearest Hospital (Raj Hospital)",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/hospital-icon.png"
+                    },
+                    "alt": "Hospital"
+                  },
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 0542-2300240",
+                    "**Address:** Kachahri Road, Near District Court, Varanasi, Uttar Pradesh 221002"
+                  ]
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 555-987-6543",
+                    "**Email:** support@safarbot.com"
+                  ],
+                  "title": "📞 Safar Bot Customer Care",
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/care-icon.png"
+                    },
+                    "alt": "Customer Care"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

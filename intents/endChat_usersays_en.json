@@ -1,0 +1,67 @@
+[
+  {
+    "id": "88c7f961-a722-472b-bebe-85bd32c837ca",
+    "data": [
+      {
+        "text": "goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b4075a1-6680-4e1a-ab18-45e1f06cb83c",
+    "data": [
+      {
+        "text": "end",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ec231f4-a2ba-47ff-9a0a-5cf7e3a7b1fc",
+    "data": [
+      {
+        "text": "end chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7db6e141-587b-425b-801c-e3561a2c4929",
+    "data": [
+      {
+        "text": "that\u0027s all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c92315a0-2d71-4c22-99a6-33290e43ed0c",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

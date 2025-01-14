@@ -1,0 +1,65 @@
+{
+  "id": "7137631e-2a96-4118-855b-6cd379742360",
+  "parentId": "2dd2a05b-f27a-4c25-948d-b76c66bd8a95",
+  "rootParentId": "2dd2a05b-f27a-4c25-948d-b76c66bd8a95",
+  "name": "helpIntent -call",
+  "auto": true,
+  "contexts": [
+    "helpIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "helpIntent.helpIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Click the option below to call our customer care team directly."
+                  ],
+                  "type": "description",
+                  "title": "📞 Customer Care Number"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "link": "tel:+917510021591",
+                      "text": "Call Customer Care"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

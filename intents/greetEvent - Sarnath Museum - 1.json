@@ -1,0 +1,91 @@
+{
+  "id": "2b269562-b87a-4afc-a941-69fef9364445",
+  "parentId": "c2125f8c-5442-42c7-9616-40bf999bd0a3",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - Sarnath Museum - 1",
+  "auto": true,
+  "contexts": [
+    "greetEvent-SarnathMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-SarnathMuseum-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "📞 Local Police Station (Sarnath)",
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 0542-2595969",
+                    "**Address:** Police Station, Sarnath, Varanasi, Uttar Pradesh 221007"
+                  ],
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/police-icon.png"
+                    },
+                    "alt": "Police Station"
+                  }
+                },
+                {
+                  "title": "🏥 Nearest Hospital (Heritage Hospital)",
+                  "image": {
+                    "alt": "Hospital",
+                    "src": {
+                      "rawUrl": "https://example.com/hospital-icon.png"
+                    }
+                  },
+                  "text": [
+                    "**Contact Number:** 0542-2511002",
+                    "**Address:** Lanka Road, Bhelupur, Varanasi, Uttar Pradesh 221005"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "description",
+                  "image": {
+                    "alt": "Customer Care",
+                    "src": {
+                      "rawUrl": "https://example.com/care-icon.png"
+                    }
+                  },
+                  "text": [
+                    "**Contact Number:** 555-123-4567",
+                    "**Email:** support@safarbot.com"
+                  ],
+                  "title": "📞 Safar Bot Customer Care"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

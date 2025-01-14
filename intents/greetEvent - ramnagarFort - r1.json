@@ -1,0 +1,73 @@
+{
+  "id": "91dfe673-e1c6-4c33-8cec-de265dd9b888",
+  "parentId": "daad0b40-87ac-437a-8b9a-c572f9117867",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - ramnagarFort - r1",
+  "auto": true,
+  "contexts": [
+    "greetEvent-ramnagarFort-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-ramnagarFort-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Perfect! I’m ready to help you organize a wonderful trip. Let’s dive into planning your adventure!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Great! Let\u0027s plan a trip for you! Do you want to book a ticket or search for nearby hotels first?"
+                  ],
+                  "type": "text"
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Book Ticket",
+                      "link": "https://varanasi-3.onrender.com/Bookings/bookingR.html"
+                    },
+                    {
+                      "text": "Nearby Hotels",
+                      "link": "https://www.google.com/maps/search/hotels+near+ramnagar+fort+varanasi/@25.2831347,82.9746421,14.17z?authuser\u003d0\u0026entry\u003dttu\u0026g_ep\u003dEgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

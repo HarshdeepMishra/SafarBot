@@ -1,0 +1,99 @@
+{
+  "id": "fa6edc02-d528-4106-9491-2bf663f3eae0",
+  "parentId": "daad0b40-87ac-437a-8b9a-c572f9117867",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - ramnagarFort - r3",
+  "auto": true,
+  "contexts": [
+    "greetEvent-ramnagarFort-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-ramnagarFort-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Welcome to Ramnagar Fort! Here’s some fascinating information you might enjoy:"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "accessibilityText": "A stunning view of Ramnagar Fort.",
+                  "rawUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ramnagar_Fort%2C_Varanasi.jpg"
+                },
+                {
+                  "text": [
+                    "🏰 **Fort Overview:** Ramnagar Fort, built in the 18th century by Kashi Naresh Raja Balwant Singh, is a beautiful sandstone structure located on the banks of the Ganges. It reflects Mughal architectural style and offers a glimpse into the royal heritage of Varanasi."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": [
+                    "🌟 **Interesting Fact:** The fort houses a unique museum displaying vintage cars, medieval costumes, ornate palanquins, and ancient manuscripts. The Darbar Hall showcases royal portraits, offering a peek into the royal family\u0027s history."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "text": [
+                    "🖼️ **Exhibits to Explore:** Explore the royal armory, which features an impressive collection of swords, old guns, and ivory artifacts. The clock tower, over 150 years old, is another marvel within the fort."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "📚 **Did You Know?** The Ramnagar Fort also hosts the grand Dussehra festival every year, renowned for its 31-day Ramlila performance that attracts visitors from around the world, showcasing the rich cultural traditions of Varanasi."
+                  ]
+                }
+              ],
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "action": {
+                        "payload": "reset",
+                        "type": "postback"
+                      },
+                      "link": "",
+                      "text": "Reset Chat"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

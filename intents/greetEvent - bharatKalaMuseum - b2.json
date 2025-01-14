@@ -1,0 +1,91 @@
+{
+  "id": "d576efcc-0e7e-4b26-9173-8e5273dda367",
+  "parentId": "3dc52437-d12d-4377-8d6e-98f16ac7981f",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - bharatKalaMuseum - b2",
+  "auto": true,
+  "contexts": [
+    "greetEvent-bharatKalaMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-bharatKalaMuseum-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "**Contact Number:** 0542-2303245",
+                    "**Address:** Police Station, BHU Campus, Varanasi, Uttar Pradesh 221005"
+                  ],
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/police-icon.png"
+                    },
+                    "alt": "Police Station"
+                  },
+                  "type": "description",
+                  "title": "📞 Local Police Station (Bharat Kala Museum Area)"
+                },
+                {
+                  "text": [
+                    "**Contact Number:** 0542-2368433",
+                    "**Address:** BHU Campus, Varanasi, Uttar Pradesh 221005"
+                  ],
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/hospital-icon.png"
+                    },
+                    "alt": "Hospital"
+                  },
+                  "title": "🏥 Nearest Hospital (Sir Sunderlal Hospital, BHU)",
+                  "type": "description"
+                },
+                {
+                  "image": {
+                    "src": {
+                      "rawUrl": "https://example.com/care-icon.png"
+                    },
+                    "alt": "Customer Care"
+                  },
+                  "type": "description",
+                  "text": [
+                    "**Contact Number:** 555-987-6543",
+                    "**Email:** support@safarbot.com"
+                  ],
+                  "title": "📞 Safar Bot Customer Care"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

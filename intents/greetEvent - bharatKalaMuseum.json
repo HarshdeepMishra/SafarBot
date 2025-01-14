@@ -1,0 +1,76 @@
+{
+  "id": "3dc52437-d12d-4377-8d6e-98f16ac7981f",
+  "parentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - bharatKalaMuseum",
+  "auto": true,
+  "contexts": [
+    "greetEvent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom",
+      "affectedContexts": [
+        {
+          "name": "greetEvent-bharatKalaMuseum-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "🏛️ Bharat Kala Bhavan Museum, located within the Banaras Hindu University, is a treasure trove of Indian art and culture, featuring a vast collection of over 100,000 artifacts, including sculptures, paintings, textiles, and ancient manuscripts.",
+                    "🌟 The museum showcases artworks from various regions of India, including Bengal, Rajasthan, and Mughal periods, making it an ideal destination for art enthusiasts and history buffs alike."
+                  ],
+                  "title": "Explore Bharat Kala Bhavan Museum!"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Plan a Visit"
+                    },
+                    {
+                      "text": "Museum Collections"
+                    },
+                    {
+                      "text": "Contact Information"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

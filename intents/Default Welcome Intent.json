@@ -1,0 +1,67 @@
+{
+  "id": "1b25bb65-dedd-412a-af27-172879f881f5",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "info",
+                  "title": "Welcome!",
+                  "subtitle": "Hello! Welcome to Safar Bot. How can I assist you today?"
+                },
+                {
+                  "subtitle": "I can help you with ticket bookings, museum information, and more.",
+                  "type": "info",
+                  "title": "Services"
+                },
+                {
+                  "type": "info",
+                  "title": "Need Help?",
+                  "subtitle": "Feel free to ask any questions type help."
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can you help me with your name??"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

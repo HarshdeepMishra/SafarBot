@@ -1,0 +1,73 @@
+{
+  "id": "5a03c4dd-456c-4544-a657-4eaff7aed356",
+  "parentId": "6880c1b8-6fdb-4792-b5b2-49cb03fa77eb",
+  "rootParentId": "8ff26575-3325-4356-addc-64303e0b9cac",
+  "name": "greetEvent - nepaliMuseum - n1",
+  "auto": true,
+  "contexts": [
+    "greetEvent-nepaliMuseum-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetEvent.greetEvent-custom.greetEvent-nepaliMuseum-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great pick! I’m excited to assist in planning your trip. Let’s ensure you have a fantastic journey!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "text",
+                  "text": [
+                    "Great! Let\u0027s plan a trip to the Nepali Museum! Would you like to book a ticket or find nearby hotels first?"
+                  ]
+                }
+              ],
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Book Ticket",
+                      "link": "https://varanasi-3.onrender.com/Bookings/bookingN.html"
+                    },
+                    {
+                      "text": "Nearby Hotels",
+                      "link": "https://www.google.com/maps/search/hotels+near+nepali+museum+varanasi/@25.2922,83.0201,15z"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
